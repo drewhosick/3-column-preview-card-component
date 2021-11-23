@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+.sedans {
+    background: hsl(31, 77%, 52%);
+    margin: auto 25px;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.suvs {
+    background: hsl(184, 100%, 22%);
+    margin: auto 25px;
+    
+}
+
+.luxury {
+    background: hsl(179, 100%, 13%);
+    margin: auto 25px;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.title, .text {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.title {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.4rem;
+    letter-spacing: 0.5px;
+}
+
+.text {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.7em;
+    font-size: .9rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.image {
+    margin: 45px auto auto 50px;
+}
+
+.button {
+    margin: 20px auto 50px 50px;
+    padding: 15px 30px;
+    border-radius: 5rem;
+    border: 1px solid;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9rem;
+    /* font-weight: 600; */
+    letter-spacing: 1px;
+}
+
+.sedans .button {
+    color:hsl(31, 77%, 52%);
+}
+
+.sedans .button:hover {
+    background: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+.suvs .button {
+    color:hsl(184, 100%, 22%);
+}
+
+.suvs .button:hover {
+    background: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+.luxury .button {
+    color:hsl(179, 100%, 13%);
+}
+
+.luxury .button:hover {
+    background: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+    border: 1px solid hsl(0, 0%, 95%);
+}
+
+@media only screen and (min-width: 1440px) {
+    .sedans {
+        border-top-right-radius: 0rem;
+        border-bottom-left-radius: 0.5rem;
+    }
+
+    .luxury {
+        border-top-right-radius: .5rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+    .sedans, .luxury, .suvs {
+        margin: 0;
+    }
+
+    .title {
+        font-size: 2.6rem;
+    }
+
+    .button {
+        margin-top: 83px;
+    }
+
+
+    
+}
